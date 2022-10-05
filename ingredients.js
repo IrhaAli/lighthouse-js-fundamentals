@@ -15,6 +15,6 @@ console.log(ingredients[j]);
 
 // Write any loop (while or for) that prints out the contents of 
 //ingredients backwards:
-for (element in ingredients){
-console.log(ingredients[element]);
+for (let j=ingredients.length-1;j>0;j--){
+console.log(ingredients[j]);
 }
