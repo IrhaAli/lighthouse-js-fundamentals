@@ -1,17 +1,16 @@
-const sayHello = function(name){
-console.log('Hello '+name);
-}
+const sayHello = function(name) {
+  console.log('Hello ' + name);
+};
 
-const chooseStations = function (stations) {
+const chooseStations = function(stations) {
   let goodStations = [];
-  for (element of stations){
-    if (element[1]>=20 && (element[2]==='school' || 
-element[2]==='community centre')){
+  for (element of stations) {
+    if ((element[1] >= 20) && ((element[2] === 'school') || (element[2] === 'community centre'))) {
       goodStations.push(element[0]);
     }
   }
-  return goodStations
-}
+  return goodStations;
+};
 
 const stations = [
   ['Big Bear Donair', 10, 'restaurant'],
