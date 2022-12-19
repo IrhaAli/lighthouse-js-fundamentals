@@ -5,3 +5,5 @@ let isOdd = function(num) {
     return true;
   }
 };
+
+module.exports = { isOdd };

@@ -11,3 +11,5 @@ const loopyLighthouse = function(range, multiples, words) {
     }
   }
 };
+
+module.exports = { loopyLighthouse };

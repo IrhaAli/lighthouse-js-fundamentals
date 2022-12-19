@@ -4,7 +4,7 @@ const sayHello = function(name) {
 
 const chooseStations = function(stations) {
   let goodStations = [];
-  for (element of stations) {
+  for (const element of stations) {
     if ((element[1] >= 20) && ((element[2] === 'school') || (element[2] === 'community centre'))) {
       goodStations.push(element[0]);
     }
